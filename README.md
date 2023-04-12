@@ -7,7 +7,7 @@ It is a type of motion in which an object moves in a straight line at a constant
 
 # How will we code it today?
 
-Today we will use [Nukkit](https://cloudburstmc.org/articles/) as software to run our program to calculate the URM, we will also use the entities from [Projectiles](https://minecraft-archive.fandom.com/wiki/Category:Projectiles) which have an in-game URM, from the position you launch it to where it lands.
+Today we will use [Nukkit](https://cloudburstmc.org/articles/) as software to run our program to calculate the URM, we will also use the [Projectiles](https://minecraft-archive.fandom.com/wiki/Category:Projectiles) entities which have an in-game URM, from the position you launch it to where it lands.
 
 # Scheme with the formulas used
 
