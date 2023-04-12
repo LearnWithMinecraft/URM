@@ -1,0 +1,5 @@
+name: UniformLineMovement
+main: com.learnwithminecraft.urm.URMPlugin
+api: 1.0.0
+version: ${project.version}
+author: LearnWithMinecraft Team
