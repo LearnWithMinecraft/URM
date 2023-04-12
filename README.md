@@ -25,6 +25,8 @@ we get the initial time and the initial position, also the current time and the 
 
 ### Velocity: To calculate the speed we divide the distance between the time
 
+demo video: https://youtu.be/ybAc-RN4mQU
+
 # Scheme with the formulas used
 
 ![Scheme](https://i.imgur.com/0xJWHY6.png)
