@@ -79,8 +79,15 @@ public class ProjectileListener implements Listener {
         double time = (currentTime - startTime) / 1000d;
         double velocity = (distance / time);
 
-        player.sendMessage(TextFormat.AQUA + String.format("The velocity of the projectile was %s blocks/second", velocity));
+        player.sendMessage(TextFormat.GOLD + String.format("The velocity of the projectile was %s blocks/second", velocity));
         player.sendMessage(TextFormat.GOLD + String.format("The time to hit the projectile with a block was %s seconds", time));
-        player.sendMessage(TextFormat.LIGHT_PURPLE + String.format("The distance traveled by the projectile was %s blocks", distance));
+        player.sendMessage(TextFormat.GOLD + String.format("The distance traveled by the projectile was %s blocks", distance));
+
+        Date date = new Date();
+        int x = (int) currentVector3.getX();
+        int y = (int) currentVector3.getY();
+        int z = (int) currentVector3.getZ();
+
+        player.sendMessage(TextFormat.GREEN + String.format("The projectile you threw fell %s in (X: %s, Y: %s, Z: %s)", date, x, y, z));
     }
 }
