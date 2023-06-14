@@ -29,4 +29,4 @@ demo video: https://youtu.be/ybAc-RN4mQU
 
 # Scheme with the formulas used
 
-![Scheme](https://i.imgur.com/0xJWHY6.png)
+![Scheme](https://i.imgur.com/Y3BH5Le.png)
